@@ -1,0 +1,166 @@
+
+@import url(https://fonts.googleapis.com/css?family=Kanit:400,600,700,500);
+
+body
+{
+	margin:0;
+	line-height:120%;
+	font-family: 'Kanit', sans-serif;		
+	font-weight: 600;
+}
+
+.header
+{
+	position: fixed;
+	width: 100%;
+	height: 105%;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background: url(../pics/US-Naval-Academy-1.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.second
+{
+		
+	height: 110%;
+	width: 100%;
+	position:absolute;
+	top:105%;
+	background-color: #7680FF;
+}
+		
+.third
+{
+	height: 105%;
+	width: 100%;
+	position:absolute;
+	top:210%;
+	background-color: blue;
+}
+		
+.overlay1{
+	background:transparent; 
+	position:relative; 
+	width:100%;
+	height:105%; /* your iframe height */
+}
+
+#googlemap iframe {
+					pointer-events:none;
+				}
+		
+.fourth	{
+		height: 95%;
+		width: 100%;
+		position:absolute;
+		top:315%;
+		background-color: #7680FF;
+		
+		}
+		
+.headpic	{
+				
+		
+				left:0;
+				top:0;
+				width:100%;
+				height:100%;
+			}
+.secpic	{
+				position:absolute;
+				z-index:0;
+				left:0;
+				top:100%;
+				width:100%;
+				height:100%;
+				background-size: 100% 100%;
+				margin-bottom:100px;
+			}
+			
+.image { 
+   position: relative; 
+   			min-height:100%;
+  
+}
+
+.nav-bar		{
+							position: fixed;
+							left: 0px;
+							top: 0px;
+							width: 100%;
+							height: 5%;
+
+							color: white;
+							text-align: center;
+							
+							font-size: 20pt;
+
+							background: #444444;
+							
+						
+						}
+
+.nav-bar a	{
+				margin-left: 2em;
+				margin-right: 2em;
+				position:relative;
+				top:30%;				
+				text-decoration: none;
+				color: white;
+			}
+			
+span
+{
+	border:5px solid #444444;
+
+}
+
+span p 
+{
+	text-align:center;
+	position:relative;
+	top:30%;
+	color:#444444
+}
+
+span:hover
+{
+ border:5px solid silver;
+
+}
+.circular
+{
+	width:200px;
+	height:200px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:10;
+}
+
+.overlay
+{
+	height:105%;
+	width:100%;
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: rgb(255, 127, 28);
+}
+
+.chevron
+{
+	position:absolute;
+	display:block;
+	height:100%;
+	width:50%;
+	background: url(../pics/chevron.png) no-repeat;
+	background-size: 10% 5%;
+	top:85%;
+	left:47%;
+}

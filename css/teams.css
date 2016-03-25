@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:400,600,700,500);
+
+body
+{
+ font-family: 'Kanit', sans-serif;
+ margin: 0px;
+}
+
+div
+{
+ padding-bottom: 5px;
+}
+
+#nav
+{
+ position:absolute;
+ top:0%;
+ width:100%;
+ height:50px;
+ background-color:#022161;
+ border-bottom:2px solid #EDE776;
+ text-align:center;
+}
+body
+{
+ margin:0%;
+}
+#links
+{
+ font-size:25px;
+ padding:30px;
+}
+a
+{
+ text-decoration:none;
+ color:white;
+}
+a:hover
+{
+ color:white;
+ font-weight:bold;
+}
+#createButton
+{
+ position:absolute;
+ top:100px;
+ margin-left:47%;
+}
+#smoke
+{
+ position:fixed;
+ width:100%;
+ height:100%;
+ background-color: rgba(0, 0, 0, 0.7);
+ top:0%;
+ left:0%;
+ display:none;
+}
+#createBox
+{
+ position:fixed;
+ width:40%;
+ height:40%;
+ top:30%;
+ left:30%;
+ border:5px #EDE776 solid;
+ border-radius: 15px;
+ text-align: center;
+ background-color: #022161;
+ color: white;
+}
+input
+{
+ font-family: "Kanit", "sans-serif";
+}
+#teams
+{
+ width:100%;
+ position:absolute;
+ top:150px;
+}
+#individual
+{
+ text-align:center;
+ width:300px;
+ height:300px;
+ margin:4%;
+ float:left;
+ border:1px solid #EDE776;
+ border-radius:15px;
+ background-color:white;
+
+}
+img
+{
+ padding-bottom:2px;
+}	

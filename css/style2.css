@@ -1,0 +1,102 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  background-image: url('../img/formation-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#logo {
+	background-image: url('../img/hty-logo.png');
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#loginBox
+{
+ background-color: rgba(0, 0, 0, 0.7);
+ position: fixed;
+ width:100%;
+ height:100%;
+ top:0%;
+ left:0%;
+ display: none;
+ text-align:center;
+ vertical-align:middle;
+}
+#align
+{
+ position:relative;
+ top:20%;
+ left:-20%;
+ text-align: right;
+}
+
+#innerLogin 
+{
+ background-color: #022161;
+ color: white;
+ width: 50%;
+ height: 33%;
+ position: fixed;
+ top:25%;
+ left:25%;
+ border:5px #EDE776 solid;
+ border-radius: 15px;
+ text-align: center;
+ background-color: #022161;
+ color: white;
+}
+
+#registerBox
+{
+ background-color: rgba(0, 0, 0, 0.7);
+ position: fixed;
+ width:100%;
+ height:150%;
+ top:-15%;
+ left:0%;
+ display: none;
+}
+
+#innerLogin2
+{
+ border: 5px #EDE776 solid;
+ border-radius: 15px;
+ width: 800px;
+ height:510px;
+ top:400px;
+ margin-right:auto;
+ margin-left:auto;
+ background-color: #022161;
+ color: white;
+ text-align: center;
+}
+#align2
+{
+ position:relative;
+ top:0%;
+ left:-20%;
+ text-align: right;
+}
+.myButton {
+	background-color: #022161;
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 26px;
+    width: 30%;
+    height: 5%;
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px;
+}
+input {
+	color:black;
+}
