@@ -1,0 +1,15 @@
+body
+{
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+#login_box
+{
+  position: absolute;
+  height:40%;
+  width:40%;
+  top:30%;
+  left:30%;
+  background-color: white;
+}
+

@@ -1,0 +1,183 @@
+<html>
+	<head>
+		<title>HackTheYard 2k16</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+	
+		<link href='https://fonts.googleapis.com/css?family=Kanit:400,600,700,500' rel='stylesheet' type='text/css'>
+		<link href="./css/current.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="./css/hover.css" rel="stylesheet" media="all">
+		<link href="./css/font-awesome.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="smoothscroll.js"></script>
+
+
+		<script type="text/javascript">
+			function toggle_visibility(id) 
+			{
+				var e = document.getElementById(id);
+				var x = document.getElementById("faq");
+				if(e.style.display == "none") {var b = 1;}
+				x.getElementsByClassName("toppp")[0].style.display ='block';
+				x.getElementsByClassName("toppp")[1].style.display ='block';
+				x.getElementsByClassName("toppp")[2].style.display ='block';
+				x.getElementsByClassName("toppp")[3].style.display ='block';
+				x.getElementsByClassName("toppp")[4].style.display ='block';
+				x.getElementsByClassName("toppp")[5].style.display ='block';
+				x.getElementsByClassName("toppp")[6].style.display ='block';
+				x.getElementsByClassName("toppp")[7].style.display ='block';
+				if(e.style.display == 'block')
+				{
+					e.style.display = 'none';
+					if(b ==1){e.style.display='block'}
+				}
+				else
+				{
+					e.style.display = 'block';
+				} 
+			}
+		</script>
+	</head>
+
+	<body>
+		<!-- Start of the page -->
+		<div id ="first"></div>
+		<div class = "header">
+			<div class ="overlay" >
+				<div class="front-container">
+					<h1>HackTheYard</h1>
+					</br>
+					<h1>Coming in March of 2016</h1>
+				</div>
+				<a href="#second" class="smoothScroll" >
+					<div class="front-chev hvr-pulse" >
+						
+						<h1><i class="fa fa-angle-double-down"></i></h1>
+					</div>
+				</a>
+		</div>
+	
+		<!-- Start of FAQ page -->
+		<div id="second" style="position:absolute;top:100%;"></div>
+		<div class = "second" id="faq" style="border-top:5px solid #444444">
+			<div class="faq-container">
+				<h1>FAQ</h1>
+			</div>
+				
+		
+			<span style="left:5%;display:block;" onclick="toggle_visibility('what');" class="button top-rowb">
+				<p>A hackathon!</p>
+			</span>
+		
+			<span  style="left:5%;display:block;" onclick="toggle_visibility('what');" class="button top-rowf toppp" id="what">
+				<p>What is HackTheYard?</p>
+			</span>
+		
+		
+			<span style="left:30%;display:block;" onclick="toggle_visibility('t');" class="button top-rowb">
+				<p>No, but working with other people is always fun!</p>
+			</span>
+			<span style="left:30%;display:block;" onclick="toggle_visibility('t');" class="button top-rowf toppp" id="t">
+				<p>Do I need a team?</p>
+			</span>
+		
+			<span style="left:55%;display:block;" onclick="toggle_visibility('travel');" class="button top-rowb">
+				<p>We aren't reimbursing travel. Sorry...</p>
+			</span>
+			<span style="left:55%;display:block;" onclick="toggle_visibility('travel');" class="button top-rowf toppp" id="travel">
+				<p>Travel?</p>
+			</span>
+		
+			<span style="left:80%;display:block;" onclick="toggle_visibility('need');" class="button top-rowb">
+				<p>A computer, a good attitute, and the will to win!</p>
+			</span>
+			<span style="left:80%;display:block;" onclick="toggle_visibility('need');" class="button top-rowf toppp" id="need">
+				<p>What do I need?</p>
+			</span>
+		
+			<span style="left:5%;display:block;" onclick="toggle_visibility('s');" class="button bottom-rowb">
+				<p>Schedule is to be determined!</p>
+			</span>
+			<span style="left:5%;display:block;" onclick="toggle_visibility('s');" class="button bottom-rowf toppp" id="s">
+				<p>Schedule?</p>
+			</span>
+		
+			<span style="left:30%;display:block;" onclick="toggle_visibility('prize');" class="button bottom-rowb">
+				<p>We will have them!</p>
+			</span>
+			<span style="left:30%;display:block;" onclick="toggle_visibility('prize');" class="button bottom-rowf toppp" id="prize">
+				<p>Prizes?</p>
+			</span>
+		
+			<span style="left:55%;display:block;" onclick="toggle_visibility('cost');" class="button bottom-rowb">
+				<p>Travel!</p>
+			</span>
+			<span style="left:55%;display:block;" onclick="toggle_visibility('cost');" class="button bottom-rowf toppp" id="cost">
+				<p>Cost?</p>
+			</span>
+		
+			<span style="left:80%;display:block;" onclick="toggle_visibility('contact');" class="button bottom-rowb">
+				<p>We will have an email soon!</p>
+			</span>
+			<span style="left:80%;display:block;" onclick="toggle_visibility('contact');" class="button bottom-rowf toppp" id="contact">
+				<p>Contact?</p>
+			</span>
+			
+			<a href="#third" class="smoothScroll" >
+				<div class="front-chev hvr-pulse"  >		
+					<h1><i class="fa fa-angle-double-down"></i></h1>
+				</div>
+			</a>
+			
+			
+		</div>
+		<!--End of FAQ page-->
+		
+		<!--Start of map-->
+		<div id="third" style="	position:absolute;top:200%;"></div>
+		<div  onClick="style.pointerEvents='none'"style="border-top:5px solid #444444">
+			<div class="third" id="googlemap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18137.291272387003!2d-76.49824595252748!3d38.98086812104129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f648d8f31def%3A0xf861068cc24aa66f!2sUnited+States+Naval+Academy!5e0!3m2!1sen!2sus!4v1449697640678" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+			</div>
+		</div>
+		<!--End of map-->
+		
+		<!--Start of team page-->
+		<div class = "fourth" id="fourth"style="border-top:5px solid #444444">
+            <div>
+				<img src="pics/moore.jpg" class="circular"/>
+			</div>
+			<div>
+				<img src="pics/co.jpg" class="circular"/>
+			</div>
+			<div>
+				<img src="pics/pullig.jpg" class="circular"/>
+			</div>
+		</div>
+		<!-- End of team page -->
+
+		<!-- Start of nav bar -->
+		<div style="margin-left:auto;margin-right:auto;">
+		<ul>
+			<li><a href="#first"class ="smoothScroll">Top</a></li>
+			<li><a href="#second"class ="smoothScroll">FAQ</a></li>
+			<li><a href="#third"class ="smoothScroll">Map</a></li>
+			<li><a href="#fourth"class ="smoothScroll">Team</a></li>
+			<li><a href="http://www.xkcd.com/"class ="smoothScroll">Fun</a></li>
+		</ul>
+		<
+		
+		<!--
+		<div class="nav-bar">
+			<a href="#first"class ="smoothScroll">Top</a>
+			<a href="#second"class ="smoothScroll">FAQ</a>
+			<a href="#third"class ="smoothScroll">Map</a>
+			<a href="#fourth"class ="smoothScroll">Team</a>
+			<a href="http://www.xkcd.com/"class ="smoothScroll">Fun</a>
+		</div>-->
+		<!--End of nav bar-->
+	</body>
+</html>
